@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: white;
+}
+
+
+h2 {
+  width: 300px;
+  margin:5px auto;
+  font-size: 50px;
+  padding:10px 0px 10px 60px;
+  color: white;
+  background:#25b99a;
+}
+
+.head {
+  width:100%;
+  height:10%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:5;
+  background:#25b99a;
+}
+
+.head input {
+  width:90%;
+  height:80%;
+  margin:5px 0px 1px 30px;
+  float:left;
+  background: rgba(255,255,255,0.2);
+  color:#fff;
+  font-size:30px;
+  text-indent:20px;
+  border-radius:5px;
+  border:0px;
+  box-shadow:none;
+  outline:none;
+}
+
+.head button {
+  width:50px;
+  height:50px;
+  font-size: 12px;
+  color:#25b99a;
+  position:absolute;
+  top:5px;
+  right:29px;
+  z-index:3;
+  border-radius:5px;
+  background:#fff;
+}
+
+.main button {
+  float:right;
+}
+
+input[type = 'checkbox'] {
+  float:left;
+  transform:scale(1.7);
+}
+
+
+
+ul.main li {
+  list-style: none;
+  width:100%;
+  height:20px;
+  line-height:20px;
+  padding:20px 15px;
+  margin-top:10px;
+  margin-bottom:5px;
+  background:rgba(255,255,255,2.1);
+  font-size:30px;
+  border-radius:5px;
+  border:0px;
+}
+
+.box li > span.done {
+  text-decoration: line-through;
+  color:rgb(0, 126, 230);
+}
+
+.box {
+  width:600px;
+  height:600px;
+  /* padding:40px 40px 40px 40px; */
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background: rgb(249, 249, 249);
+  text-align: center;
+}
+
+.main {
+  padding:30px;
+  margin: 30px 10px 30px -25px;
+}
+
+
+
+::placeholder {
+  color:rgba(255, 255, 255, 0.3);
+}
+
+
+[v-cloak] {
+  display: none;
+}

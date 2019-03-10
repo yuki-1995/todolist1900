@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="uft-8">
+    <title>Hello Vue.js</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+      <!-- <h2 class="title">todo list</h2> -->
+      <div id="app" class="box">
+        <form class="head">
+          <input type="text" value="" placeholder="Enter todo" v-model="newItem">
+          <button type="button" v-on:click="addItem">追加</button>
+        </form>
+        <ul class="main" v-cloak>
+          <li v-for="(todo,index) in todos">
+            <input class="checkbox-input" type="checkbox" v-model="todo.isDone">
+            <span v-bind:class="{ done: todo.isDone }">{{ todo.item }}</span>
+            <button type="button" v-on:click="deleteItem(index)"><span><i class="fas fa-trash-alt fa-fw fa-2x"></i></span></button>
+          </li>
+        </ul>
+        <!-- <pre>
+          {{ $data }}
+        </pre> -->
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.7/dist/vue.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
