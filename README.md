@@ -1,6 +1,6 @@
 # TO DO List (Veu.js)
-Html , Css , Vue.jsで作ったtodolistです<br>
-
+HTML , CSS , Vue.jsで作ったtodolistです<br>
+Youtubeに使用動画をあげておりますので是非ご覧ください。
 # Youtube
 TO DO Listアプリ<br>
 https://youtu.be/RVUDIkJ7oag
