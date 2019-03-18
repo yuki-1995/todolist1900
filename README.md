@@ -8,3 +8,4 @@ https://youtu.be/RVUDIkJ7oag
 # アプリURL
 https://akatsukasan.github.io/todolist1900/ <br>
 このアプリはgithubのpagesを使って公開しております。<br>
+このアプリはあくまでポートフォリオとして作成したアプリですので予期せぬ動作が起こるかもしれません。万が一予期せぬ動作を発見させた方は連絡お願いします。
