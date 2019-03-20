@@ -1,4 +1,4 @@
-# TO DO LIST (Veu.js)
+# TO DO LIST (Vue.js)
 HTML , CSS , Vue.jsで作ったtodolistです<br>
 Youtubeに使用動画をあげておりますので是非ご覧ください。
 # Youtube
